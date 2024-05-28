@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:mysql://192.168.229.128:3306/hibernate_demo?serverTimezone=UTC
+        </property>
+        <property name="hibernate.connection.username">admin</property>
+        <property name="hibernate.connection.password">!~9H~=rX?5si^]y^eG4U)uAEmhUc!AeVp!^jE_H8T*Q</property>
+        <property name="hibernate.connection.pool_size">50</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.highlight_sql">true</property>
+    </session-factory>
+</hibernate-configuration>
